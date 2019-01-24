@@ -10,4 +10,5 @@
 
 ## Images
 The is a view of the puching bag game:
+
 ![alt text](https://github.com/kirigokaranja/PunchingBagGame/blob/master/bag.PNG)
