@@ -1,0 +1,49 @@
+
+#bag{
+    width: 200px;
+    height: 400px;
+    margin: 0 auto 20px auto;
+    background: url("img/bag.png") center no-repeat;
+    background-size: 80%;
+}
+#bag.bagBurst{
+    background: url("img/bag-burst.png") center no-repeat;
+    background-size: 80%;
+    color: darkred;
+}
+#health{
+width: 200px;
+    margin: 0 auto 20px auto;
+    border: 2px solid black;
+}
+#health div{
+    background-color: darkred;
+    height: 30px;
+}
+span{
+    margin: 0 auto;
+    width: 120px;
+    color: greenyellow;
+}
+#controls{
+    margin: 0 auto;
+    width: 120px;
+}
+
+.bounce-enter-active {
+    animation: bounce-in .5s;
+}
+.bounce-leave-active {
+    animation: bounce-in .5s reverse;
+}
+@keyframes bounce-in {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
